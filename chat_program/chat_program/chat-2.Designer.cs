@@ -39,7 +39,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.istmessage = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -144,13 +144,13 @@
             this.textBox5.Size = new System.Drawing.Size(522, 36);
             this.textBox5.TabIndex = 4;
             // 
-            // listBox1
+            // istmessage
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 184);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(712, 238);
-            this.listBox1.TabIndex = 5;
+            this.istmessage.FormattingEnabled = true;
+            this.istmessage.Location = new System.Drawing.Point(12, 184);
+            this.istmessage.Name = "istmessage";
+            this.istmessage.Size = new System.Drawing.Size(712, 238);
+            this.istmessage.TabIndex = 5;
             // 
             // button1
             // 
@@ -177,7 +177,7 @@
             this.ClientSize = new System.Drawing.Size(787, 480);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.istmessage);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -205,7 +205,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox istmessage;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
