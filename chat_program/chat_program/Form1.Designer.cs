@@ -34,11 +34,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textlocalIP = new System.Windows.Forms.TextBox();
+            this.textlocalPort = new System.Windows.Forms.TextBox();
+            this.textFDIP = new System.Windows.Forms.TextBox();
+            this.textFRPort = new System.Windows.Forms.TextBox();
+            this.textmessage = new System.Windows.Forms.TextBox();
             this.listmessage = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -48,8 +48,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.textlocalPort);
+            this.groupBox1.Controls.Add(this.textlocalIP);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
@@ -61,8 +61,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.textFDIP);
+            this.groupBox2.Controls.Add(this.textFRPort);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(340, 12);
@@ -108,41 +108,41 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "PORT";
             // 
-            // textBox1
+            // textlocalIP
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
+            this.textlocalIP.Location = new System.Drawing.Point(147, 33);
+            this.textlocalIP.Name = "textlocalIP";
+            this.textlocalIP.Size = new System.Drawing.Size(100, 20);
+            this.textlocalIP.TabIndex = 4;
             // 
-            // textBox2
+            // textlocalPort
             // 
-            this.textBox2.Location = new System.Drawing.Point(147, 103);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.textlocalPort.Location = new System.Drawing.Point(147, 103);
+            this.textlocalPort.Name = "textlocalPort";
+            this.textlocalPort.Size = new System.Drawing.Size(100, 20);
+            this.textlocalPort.TabIndex = 5;
             // 
-            // textBox3
+            // textFDIP
             // 
-            this.textBox3.Location = new System.Drawing.Point(142, 29);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.textFDIP.Location = new System.Drawing.Point(142, 29);
+            this.textFDIP.Name = "textFDIP";
+            this.textFDIP.Size = new System.Drawing.Size(100, 20);
+            this.textFDIP.TabIndex = 6;
             // 
-            // textBox4
+            // textFRPort
             // 
-            this.textBox4.Location = new System.Drawing.Point(142, 103);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.textFRPort.Location = new System.Drawing.Point(142, 103);
+            this.textFRPort.Name = "textFRPort";
+            this.textFRPort.Size = new System.Drawing.Size(100, 20);
+            this.textFRPort.TabIndex = 7;
             // 
-            // textBox5
+            // textmessage
             // 
-            this.textBox5.Location = new System.Drawing.Point(12, 399);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(585, 34);
-            this.textBox5.TabIndex = 6;
+            this.textmessage.Location = new System.Drawing.Point(12, 399);
+            this.textmessage.Multiline = true;
+            this.textmessage.Name = "textmessage";
+            this.textmessage.Size = new System.Drawing.Size(585, 34);
+            this.textmessage.TabIndex = 6;
             // 
             // listmessage
             // 
@@ -178,7 +178,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listmessage);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textmessage);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -200,11 +200,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textlocalPort;
+        private System.Windows.Forms.TextBox textlocalIP;
+        private System.Windows.Forms.TextBox textFDIP;
+        private System.Windows.Forms.TextBox textFRPort;
+        private System.Windows.Forms.TextBox textmessage;
         private System.Windows.Forms.ListBox listmessage;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
